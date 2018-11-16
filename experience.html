@@ -32,16 +32,22 @@
 				<b>Interim analyses using repeated confidence bands for CRTs.</b></p>
 				<ul>
 					<li>
-						<p>Implemented multivariate repeated confidence bands in three settings(repeated measures responses, recurrent events, survival data).</p>
+						<p>Implemented multivariate repeated confidence bands which accommodate multivariate response and multiple treatment arms.</p>
 					</li>
 					<li>
-						<p>Implemented algorithms of calculating mean and covariance in different settings.</p>
+						<p>Derived the mean and covariance function of treatment difference and further proved the correctness of the result.</p>
 					</li>
 					<li>
-						<p>Utilized resampling algorithm to compute the border of confidence bands.</p>
+						<p>Implemented algorithms for calculating the mean and covariance function of single treatment and treatment difference under three settings (repeated measures responses, recurrent events, survival data).</p>
+					</li>
+					<li>
+						<p>Utilized resampling algorithm to approximate critical values and thus computed the border of confidence bands.</p>
 					</li>
 					<li>
 						<p>Proposed an algorithm which can place confidence bands and confidence regions adaptively.</p>
+					</li>
+					<li>
+						<p>To be continued (undergraduate thesis defense ---- wish to extend MRCBs to the situation where missing value exists)</p>
 					</li>
 				</ul>
 
@@ -62,10 +68,10 @@
 						<p>Integrated C/C++ into R to implement the three algorithms mentioned above.</p>
 					</li>
 					<li>
-						<p>Constructed R package with Rcpp.</p>
+						<p>Constructed the macs Package for <b>R</b> with Rcpp.</p>
 					</li>
 					<li>
-						<p>Programmed powerful functions in R, such as R interface function, plot function, etc.</p>
+						<p>Programmed powerful functions in R, such as R interface function, <i>plot</i> function, <i>print</i> function, etc.</p>
 					</li>
 					<li>
 						<p>Proposed an adaptive tree drawing algorithm which can calculate coordinates by recursive computation according to node distribution, and then arrange the position of each node in the plot.</p>
