@@ -1,11 +1,14 @@
-
-
-
-        <html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <title> Recent Job Market Analysis across Differnet Majors </title>
+	<meta name="description" content="Who Got Accepted by My Dream School?">
+    <meta name="keywords" content="GradCafe, U.S. News, QS Ranking, Graduate Application, Statistics">
+    <meta name="author" content="Yidong Zhou, Statistics, University of California, Davis">
+    <title>Who Got Accepted by My Dream School?</title>
+    <link rel="icon" href="img/captainame.ico"/>
     <link rel="stylesheet" href="css/projects.css?v=fe97e7ddfe95d004a8dd40e2184fab2bc80b33b2" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="js/projects.js"></script>
@@ -27,7 +30,7 @@
 
       <section>
         <div id="title">
-          <h1>Gradcafe: Who Got Accepted by My Dream School?</h1>
+          <h1>Who Got Accepted by My Dream School?</h1>
           <hr class="style15" />
           <p> Han Chen, Zhixuan Shao, Haoning Xue, <a href="mailto:ydzhou@ucdavis.edu?Subject=Hello%20again" target="_top">Yidong Zhou</a> </p>
           <hr />
@@ -46,7 +49,7 @@
 
 <p>As freshly admitted grad students, we are curious about what we can know about application in Statistics over the last decade from <a href="https://www.thegradcafe.com/" target="_blank">GradCafe</a>, where we have access to 10,000 application results from 2010 to 2020 with information on the program, year, applicant undergrad GPA, GRE result, admission status, etc.</p>
 
-<p>We also incorporate two major university rankings in Statistics: <a href="https://www.usnews.com/best-colleges/rankings/national-universities" target="_blank">US News</a> and <a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2020" target="_blank">QS World University Rankings</a> as these rankings are reliable indicators of academic reputation of a particular university and program, which can affect decisions of both applicants and programs significantly. Besides, these two rankings are selected to represent the major domestic and international evaluation of universities.</p>
+<p>We also incorporate two major university rankings in Statistics: <a href="https://www.usnews.com/best-colleges/rankings/national-universities" target="_blank">U.S. News</a> and <a href="https://www.topuniversities.com/university-rankings/world-university-rankings/2020" target="_blank">QS World University Rankings</a> as these rankings are reliable indicators of academic reputation of a particular university and program, which can affect decisions of both applicants and programs significantly. Besides, these two rankings are selected to represent the major domestic and international evaluation of universities.</p>
 
 <p>With three datasets on admission result and ranking scraped, we are able to answer two major questions below.
 	<ol>
@@ -62,9 +65,7 @@
 
 <h2> <font color="#faca55">METHOD &amp; TECHENIQUES</font> </h2>
 
-<p>		The data of the job market come from <a href="https://www.indeed.com/">indeed.com</a>. We restricted our scope to STAT, CHE, and MSE, and California. (The procedure can be easily extended to other locations and majors.) </p>
-
-<p>		To quickly get to the fun part of the results, the methodologies and techniques we used for this project are summarized in this table. You may scroll down to the very bottom to find the link to our jupyter notebook to find more details. </p>
+<p>Method and techniques!!!</p>
 
 <div>
 	<img src="img/projects/technique.png" width="650" align="middle" />
@@ -130,7 +131,7 @@
 <p></p>
 <p></p>
 	<h3><font color="#3da5da"> 2. What kind of programs are popular among the applicants in Statistics? </font></h3>
-	
+	<p>Introduction!!!</p>
     <div id="5fa0f646-27bc-41c5-b00a-4d76be081e69" data-root-id="35355" class="bk-root"></div>
             
     <script type="application/json" id="36300">
@@ -172,7 +173,7 @@
           })();
         </script>
 
-	<p>The majority of the jobs only require a Bachelors degree. For internships, the percentage of graduate is slightly higher. It is interesting to find that there is really high demand for Materials Science graduate students for internships.</p>
+	<p>Conclusion and Interpretation!!!</p>
 
 	<div class="bk-root" id="bfe8dcef-0b64-4f56-afa1-0685c17fe395" data-root-id="34405"></div>
             
@@ -219,65 +220,23 @@
           })();
         </script>
 	
-	<p>The population data of the entire US in 2014 to 2015 academic year of the statistic major and engineering majors come from the <a href="https://nces.ed.gov/fastfacts/display.asp?id=37">National Center for Education Statistics</a>. And the job demand data were obtained from Indeed website and only for California. Since the data are not on the same page in terms of time and locations, we only compared the percentage of different degrees. </p>
-	<p>Assuming the CA data is representative for the entire nation, the percentage of undergrad is smaller in population than that in the job market. It seems to be easier for undergrads to find a job. However, people with higher education levels may prefer to continue their career in academia rather than industry.</p>
+	<p>Conclusion and Interpretation!!!</p>
 
 <p></p>
 
 	<h3><font color="#3da5da">3. Notes  Jason?</font></h3>
+	<p>Introduction!!!</p>
 	<div>
-		<img src="Figures/wordcloud.jpg" height="160" align="right" />
-	</div>
+  		<img src="img/projects/decisiontreenotesleft.png" width="650" align="middle" />
+  		<img src="img/projects/decisiontreenotesright.png" width="650" align="middle" />
+  	</div>
 	<p></p>
-	<p>31 important words of general qualifications are shared by all majors. They can be classified into two categories: (1) personal characteristics (“independent”, “collaboration”, “coordination”, etc). (2) fundamental professional skills (“excel”, “r”, and “software”).</p>
-	<div>
-		<img src="Figures/4-venn.jpg" width="650" align="middle" />
-	</div>
-	<p></p>
-	<p> Pairwise comparison between each two majors unveiled the overlapping professional skill sets. There are about the same number of words shared by statistics and other two majors. The overlap between CHE and MSE is quite large. It is not surprising, we were a single department last year!</p>
-
-<p></p>
-	
-	<h3><font color="#3da5da">4. What do Statisticians master?</font></h3>
-	<p> Since we know very well about our own majors, we only dug into the unique skill set for statisticians.  Google suggested a professional skill set for statistics major, let’s see what are the most popular ones. </p>
-	<div>
-		<img src="Figures/skill set of STAT.png" width="650" align="middle" />
-	</div>	
-	<p></p>
-	<p>Obviously, “Excel”, “Sql”, “Python”,“R” stand out prominently. So learn STA141-abc classes very carefully, statistics students!</p>
-
-<p></p>
-
-	<h3><font color="#3da5da">5. How much can you earn?</font></h3>
-	<p>The distribution of the STAT and CHE majors are very similar whose average annual salary is around 70 thousand. Chemical engineers actually earn a little bit more than statisticians in general. </p>
-	<div>
-		<img src="Figures/salary_violinplot.png" width="650" align="middle" />
-	</div>
-	<p></p>
-	<p>The entry salary level for material scientists is much higher than the other majors. However, the highest level is very limited as well. The distribution is pretty narrow and it seems that there is not much space to push up your salary for a material scientist. It’s probably a good idea for Jiewei to pursue a degree in statistics!</p>
-
-
-<p></p>
-
-
-	<h3><font color="#3da5da">6. How can you earn more?</font></h3>
-	<p>Is there any particular skill that can boost your salary level?</p>
-	<div>
-		<img src="Figures/Skill Salary Bar Plot.png" width="650" align="middle" />
-	</div>
-	<p></p>
-	<p>Unfortunately, there is no quick answer. We equally differentiated the job posts according to the annual salary they offer. The most popular skill set including R, Python, and Hadoop (again, the content of the STA141-abc course series), are all commonly required regardless of the salary level. Some other skills are required by some jobs but not the others.</p> 
-	<p>We believe there should be some correlation between the skill set and the salary level. But we did not find any particular skill that is special for the high salary level group. One possible reason is the data limitation. Not all the job posts would specify the salary level, and only about 10% of the job posts we scraped provided the salary information. The sample size is relatively small to begin with. Another hypothesis is that it may be the size of your skill set, instead of a special skill, that determines your salary level. </p>
-
-<p></p>
-<p></p>
-
-<p>It seems that not all companies are frank enough to tell you their job salary. And we were not able to proceed with the limited data to infer the salary difference between undergrads and grads. Let’s hope for now that our efforts will be paid off…</p>
+	<p>Conclusion and Interpretation!!!</p>
 
 <div class="ex3">
 </div>
 
-<h2> <font color="#faca55">WRAP UP </font></h2>
+<!--<h2> <font color="#faca55">WRAP UP </font></h2>
 
 <p>We had a lot of fun with this project. Da is super excited that chemical engineers earn the most among the three majors, and Jiewei is pretty happy that she now knows R and Python very well. We can’t wait to learn more about statistics!</p>
 
@@ -285,7 +244,7 @@
 
 
 <div class="ex3">
-</div>
+</div>-->
 
 <center>
 <footer class="site-footer">
