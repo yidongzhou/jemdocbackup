@@ -133,29 +133,34 @@
 <p></p>
 
 <h3><font color="#3da5da">4. Which School is the hardest to get in?</font></h3>
-<p>Although this dataset from Gradcafe can only represent a small part of the applicants, it&#39;s nevertheless interesting to compare the acceptance rate among all applicants of different programs, which we believe would partially reflect the difficulty in getting in this program.</p>
+<p>Although this dataset from Gradcafe can only represent a small part of the applicants, it's nevertheless interesting to compare the acceptance rate among all applicants of different programs, which we believe would partially reflect the difficulty in getting in this program.</p>
 
 <div>
-	<img src="img/projects/ucdsta.png" width="324.4" style="float: left;" />
-	<img src="img/projects/ucbsta.png" width="324.4" style="float: right;" />
+    <img src="img/projects/sta.png" width="650" align="middle" />
 </div>
 
 <p>Comparing UC Davis and Berkeley, the rejection rate of Berkeley is considerably higher. Berkeley ranks top 2 in Statistics subject according to USnews, and it is very difficult to get in.</p>
 
 <p>We can see which school has the lowest admission rate of Stats PhD, by an naively estimate--the count of admission divided by the sum of the counts of admission and rejection. In our data, Duke University has the lowest admission rate 17.6%, followed by UPenn 19.2% and Harvard 21.8%. Ohio State has the highest adimission rate 76.6%. Following is the ranking of admission rate in our data.</p>
 
-<p><font face="courier">Institution<br />
-Duke University (Department of Statistical Science) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0.175758<br />
-University of Pennsylvania (Department of Statistics) 0.191667<br />
-Harvard University (Department of Statistics) 0.217687<br />
-Yale University (Department of Statistics) 0.246914<br />
-University of California--Berkeley (Department of Statistics) 0.261084<br />
-...<br />
-University of North Carolina--Chapel Hill (Department of Statistics &amp; Operations Research) 0.634146<br />
-University of Connecticut (Department of Statistics) 0.659341<br />
-Iowa State University (Department of Statistics) 0.688312<br />
-Purdue University--West Lafayette (Department of Statistics) 0.692308<br />
-Ohio State University (Department of Statistics) 0.765766 </font></p>
+<div><font face="courier">
+  Institution<br> 
+  <div style="float:left">Duke University (Department of Statistical Science)</div>
+  <div style="float:right">0.175758</div>
+  <div style="float:left">University of Pennsylvania (Department of Statistics)</div>
+  <div style="float:right">0.191667</div>
+  <div style="float:left">Harvard University (Department of Statistics)</div>
+  <div style="float:right">0.217687</div>
+  ...<br>
+  <div style="float:left">Iowa State University (Department of Statistics)</div>
+  <div style="float:right">0.688312</div>
+  <div style="float:left">Purdue University--West Lafayette (Department of Statistics)</div>
+  <div style="float:right">0.692308</div>
+  <div style="float:left">Ohio State University (Department of Statistics)</div>
+  <div style="float:right">0.765766</div>
+</font></div>
+
+<br><br><br><br><br><br>
 
 <p>However, we should keep in mind that this dataset may be a biased sample, or in other words, missing not at random. For example, people may be more likely to report their acceptance than to report rejection on Gradcafe. Therefore, we expect this acceptance rate to be an overestimate--You will not believe OSU accept 77% of all applicants each year!</p>
 
@@ -166,24 +171,29 @@ Ohio State University (Department of Statistics) 0.765766 </font></p>
 <p>As PhDs in Statistics in UC Davis, we found the proportion of international students in our department to be particularly high. Is this also true for other schools?</p>
 
 <div>
-	<img src="img/projects/ucdacc.png" width="324.4" style="float: left;" />
-	<img src="img/projects/ucbacc.png" width="324.4" style="float: right;" />
+    <img src="img/projects/acc.png" width="650" align="middle" />
 </div>
 
 <p>We found that many other schools, e.g. UC Berkeley, do not have so many international PhDs as in UC Davis Statistics. We can have a look at which school prefers international students most in terms of PhD in Statistics. In our data, Stanford has the highest international proportion 62.5%, followed by Columbia 62.2% and 59.0%, while Rice has the lowest international proportion 16.7%. Following is the ranking of international student proportion. </p>
 
-<p><font face="courier">Institution<br /> 
-  Stanford University (Department of Statistics) 0.625000<br>
-  Columbia University (Department of Statistics) 0.621622<br>
-  University of California--Davis (Department of Statistics) 0.589744<br>
-  Harvard University (Department of Statistics) 0.566667<br>
-  Yale University (Department of Statistics) 0.526316<br>
-  ...<br />
-  University of Washington (Department of Statistics) 0.271429<br>
-  University of California--Santa Barbara (Department of Statistics and Applied Probability) 0.250000<br>
-  University of California--Los Angeles (Department of Statistics) 0.195652<br>
-  Duke University (Department of Statistical Science) 0.178571<br>
-  Rice University (Department of Statistics) 0.166667  </font></p>
+<div><font face="courier">
+  Institution<br> 
+  <div style="float:left">Stanford University (Department of Statistics)</div>
+  <div style="float:right">0.625000</div>
+  <div style="float:left">Columbia University (Department of Statistics)</div>
+  <div style="float:right">0.621622</div>
+  <div style="float:left">University of California--Davis (Department of Statistics)</div>
+  <div style="float:right">0.589744</div>
+  ...<br>
+  <div style="float:left">University of California--Los Angeles (Department of Statistics)</div>
+  <div style="float:right">0.195652</div>
+  <div style="float:left">Duke University (Department of Statistical Science)</div>
+  <div style="float:right">0.178571</div>
+  <div style="float:left">Rice University (Department of Statistics)</div>
+  <div style="float:right">0.166667</div>
+</font></div>
+
+<br><br><br><br><br><br>
 
 <p>Still, we need to point out that this dataset may be a biased sample of the whole applicants. We believe that the proportion of international students in this dataset is likely to be underestimated, because many international students do not know Gradcafe and therefore do not report their results on Gradcafe.</p>
 
@@ -329,11 +339,9 @@ Ohio State University (Department of Statistics) 0.765766 </font></p>
   		<img src="img/projects/decisiontreenotesright.png" width="650" align="middle" />
   	</div>
 
-<p><font face="courier">20 Most Important Words: [&#39;please&#39; &#39;funding&#39; &#39;below&#39; &#39;anyone&#39; &#39;rejection&#39; &#39;ta&#39; &#39;sad&#39; &#39;offer&#39; &#39;tuition&#39; &#39;the&#39; &#39;interview&#39; &#39;to&#39; &#39;excited&#39; &#39;fellowship&#39; &#39;from&#39; &#39;rejected&#39; &#39;expected&#39; &#39;check&#39; &#39;wait&#39; &#39;any&#39;]</font><br />
-&nbsp;</p>
+<p><font face="courier">20 Most Important Words: ['please' 'funding' 'below' 'anyone' 'rejection' 'ta' 'sad' 'offer' 'tuition' 'the' 'interview' 'to' 'excited' 'fellowship' 'from' 'rejected' 'expected' 'check' 'wait' 'any']</font><br></p>
 
 <p><font face="courier">10-fold Cross Validation Accuracy: 0.6663617916357338</font></p>
-<font face="courier"> </font>
 
 <p>Although, as expected, the notes itself does not have much predicting power (CV accuracy: 0.66), the nodes on top of the tree are rather interesting. To our surprise, the most important nodes is &quot;please&quot;. This actually makes sense. When someone says &quot;please&quot;, he/she is very likely to be &quot;Waitlisted&quot;--he/she is urging those who are holding offers but not going to decline as soon as possible. Here are some of the notes that contain &quot;please&quot;:</p>
 
