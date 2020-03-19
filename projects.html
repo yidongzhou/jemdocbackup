@@ -78,7 +78,7 @@
 
 <h2> <font color="#faca55">Exploratory Data Analysis</font> </h2>
 <p>We first conducted exploratory data analysis on the Gradcafe dataset and got some prelimilary findings about applicants in Statistics.</p>
-<h3><font color="#3da5da">1. GPA by Degree and Location</font></h3>
+<h3><font color="#3da5da">1. Is my GPA good enough?</font></h3>
 
 <div>
 	<img src="img/projects/gpabydegree.png" width="650" align="middle" />
@@ -99,7 +99,7 @@
 <p></p>
 <p></p>
 
-<h3><font color="#3da5da">2. GRE by Location</font></h3>
+<h3><font color="#3da5da">2. Who has better GRE scores?</font></h3>
 <p>GRE score is another important indicator of applicant competency and mostly required by Statistics postgraduate programs. GRE score constitutes three parts: quantitative, verbal, and analytical writing. We created four density plots of applicants' GRE by locations of applicants' undergraduate institution and nationality.</p>
 
 <div>
@@ -117,7 +117,7 @@
 <p></p>
 <p></p>
 
-<h3><font color="#3da5da">3. Average timeline of admission decisions</font></h3>
+<h3><font color="#3da5da">3. When will I know admission decisions?</font></h3>
 <p>We compare the timelines of different institutions in terms of making decisions on PhD admission. This is presented by yearly aggregated counts of events. For example, we compare UC Davis and Stanford.</p>
 
 <div>
@@ -132,7 +132,7 @@
 <p></p>
 <p></p>
 
-<h3><font color="#3da5da">4. Which School is the hardest to get in?</font></h3>
+<h3><font color="#3da5da">4. Which program is the hardest to get in?</font></h3>
 <p>Although this dataset from Gradcafe can only represent a small part of the applicants, it's nevertheless interesting to compare the acceptance rate among all applicants of different programs, which we believe would partially reflect the difficulty in getting in this program.</p>
 
 <div>
@@ -151,7 +151,8 @@
   <div style="float:right">0.191667</div>
   <div style="float:left">Harvard University (Department of Statistics)</div>
   <div style="float:right">0.217687</div>
-  ...<br>
+  <div style="float:left">...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+  <div style="float:right">...</div>
   <div style="float:left">Iowa State University (Department of Statistics)</div>
   <div style="float:right">0.688312</div>
   <div style="float:left">Purdue University--West Lafayette (Department of Statistics)</div>
@@ -160,15 +161,15 @@
   <div style="float:right">0.765766</div>
 </font></div>
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 <p>However, we should keep in mind that this dataset may be a biased sample, or in other words, missing not at random. For example, people may be more likely to report their acceptance than to report rejection on Gradcafe. Therefore, we expect this acceptance rate to be an overestimate--You will not believe OSU accept 77% of all applicants each year!</p>
 
 <p></p>
 <p></p>
 
-<h3><font color="#3da5da">5. Proportion of International Student</font></h3>
-<p>As PhDs in Statistics in UC Davis, we found the proportion of international students in our department to be particularly high. Is this also true for other schools?</p>
+<h3><font color="#3da5da">5. Is the program diversified enough?</font></h3>
+<p>As PhD studetns in UC Davis, we found the proportion of international students in our department to be particularly high. Is this also true for other schools?</p>
 
 <div>
     <img src="img/projects/acc.png" width="650" align="middle" />
@@ -184,7 +185,8 @@
   <div style="float:right">0.621622</div>
   <div style="float:left">University of California--Davis (Department of Statistics)</div>
   <div style="float:right">0.589744</div>
-  ...<br>
+  <div style="float:left">...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+  <div style="float:right">...</div>
   <div style="float:left">University of California--Los Angeles (Department of Statistics)</div>
   <div style="float:right">0.195652</div>
   <div style="float:left">Duke University (Department of Statistical Science)</div>
@@ -193,7 +195,7 @@
   <div style="float:right">0.166667</div>
 </font></div>
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 <p>Still, we need to point out that this dataset may be a biased sample of the whole applicants. We believe that the proportion of international students in this dataset is likely to be underestimated, because many international students do not know Gradcafe and therefore do not report their results on Gradcafe.</p>
 
@@ -204,7 +206,7 @@
 <h2> <font color="#faca55"> INTERESTING FINDINGS </font> </h2>
 <p></p>
 <p></p>
-	<h3><font color="#3da5da">1. What kind of applicants are preferred by statistics graduate programs??</font></h3>
+	<h3><font color="#3da5da">1. What kinds of applicants are preferred?</font></h3>
 	<p>What applicants are most concerned about is how to increase their chances of admission. Thus we further look into the mechanism of graduate admission and hope to guide the application of prospective students. Given the complexity and diversity of the data, we constructed a decision tree classifier to find the influential factors in graduate application.</p>
 	<div>
   	<img src="img/projects/decisiontreeleft.PNG" width="650" align="middle" />
@@ -215,7 +217,7 @@
 
 <p></p>
 <p></p>
-	<h3><font color="#3da5da"> 2. Interactive Chropleth Map associated with our data</font></h3>
+	<h3><font color="#3da5da"> 2. Where are we heading to?</font></h3>
 
 	<p>We show some interactive chropleth map, which is about the average admisson rate, average statistic score and numbers of applicants across the entire states. Admittedly, this is not the most useful way to look at gradcafe admission dataset, but still provides an interesting look at the relative numbers and admission conditions among different states.</p>
 
